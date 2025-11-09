@@ -1,0 +1,57 @@
+#
+# C++ / C 用の一般的な除外リスト
+#
+
+### 1. ビルド生成物 ###
+*.o
+*.obj
+*.exe
+a.out
+*.lib
+*.dll
+*.so
+*.dylib
+*.a
+*.pdb
+
+# ビルドディレクトリ
+build/
+bin/
+dist/
+
+### 2. IDE / エディタ関連ファイル ###
+
+# Visual Studio / MSBuild
+Debug/
+Release/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.ncb
+*.aps
+*.bak
+*.opensdf
+*.sdf
+*.log
+*.ipch
+
+# Visual Studioのソリューション・ユーザーファイル
+*.vcxproj.user
+*.vcxproj.filters
+
+# VS Code
+# NOTE: チームで設定を共有する場合は、.vscode/ を含めても良い
+.vscode/
+
+# JetBrains IDEs (CLionなど)
+.idea/
+
+# macOS固有ファイル
+.DS_Store
+
+### 3. その他 ###
+# Logファイル
+*.log
